@@ -1,0 +1,15 @@
+node_modules/
+dist/
+recordings/
+
+.env*
+
+*.tsbuildinfo
+
+# logs
+*.log
+*.log.*
+
+# OS
+.DS_Store
+Thumbs.db

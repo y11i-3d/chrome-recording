@@ -1,0 +1,40 @@
+{
+  "name": "@y11i-3d/chrome-recording",
+  "description": "CLI for recording Windows Chrome content from WSL, using ffmpeg's ddagrab.",
+  "keywords": [
+    "recording",
+    "chrome",
+    "ffmpeg",
+    "windows",
+    "wsl"
+  ],
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "chrome-recording": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc && cp src/get_chrome_info.ps1 dist/",
+    "postinstall": "node dist/postinstall.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.6.0",
+    "eslint": "^10.2.0",
+    "globals": "^17.4.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.58.1"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Yuichiroh Arai",
+    "url": "https://yuichiroharai.com/"
+  },
+  "repository": "github:y11i-3d/chrome-recording",
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}

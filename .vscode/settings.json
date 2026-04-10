@@ -1,0 +1,5 @@
+{
+  "prettier.configPath": "prettier.config.human.mjs",
+  "npm.packageManager": "bun",
+  "npm.scriptRunner": "bun"
+}
