@@ -1,6 +1,7 @@
 # chrome-recording
 
 [![npm version](https://img.shields.io/npm/v/@y11i-3d/chrome-recording.svg)](https://www.npmjs.com/package/@y11i-3d/chrome-recording)
+[![Build](https://github.com/y11i-3d/chrome-recording/actions/workflows/build.yml/badge.svg)](https://github.com/y11i-3d/chrome-recording/actions/workflows/build.yml)
 
 CLI for recording Windows Chrome content from WSL, using ffmpeg's ddagrab.
 
