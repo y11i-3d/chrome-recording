@@ -175,6 +175,8 @@ export function registerRecordCommand(program: Command): void {
               ...(duration !== null ? ["-t", String(duration)] : []),
               "-c:v",
               "libx264",
+              "-pix_fmt",
+              "yuv420p",
               ...qualityArgs,
               "-y",
               outputWin,
